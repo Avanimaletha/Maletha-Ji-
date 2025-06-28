@@ -8,7 +8,14 @@ export const EXPERIENCES = [
   {
     year: "2022-2024",
     role: "Member",
-    company: "CodeKrafters",
+    company: "CodeKrafters -",
+    description: "Led a team in developing and maintaining web applications",
+    technologies: ["Javascript", "React.js"],
+  },
+  {
+    year: "2023-2024",
+    role: "Member",
+    company: "Andropedia -",
     description: "Led a team in developing and maintaining web applications",
     technologies: ["Javascript", "React.js"],
   },
@@ -29,5 +36,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "xascbhbc ",
   phoneNo: "bjcycshb ",
-  email: "me@example.com",
+  email: "avanimaletha@gmail.com",
 };

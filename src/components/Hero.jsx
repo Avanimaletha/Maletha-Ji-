@@ -17,7 +17,7 @@ const childVariants = {
   visible:{opacity:1,x:0,transition:{duration:0.5}}
 }
 const HERO_CONTENT =
-  "A passionate developer with a strong focus on building modern and responsive web applications. As a cloud enthusiast, I love exploring scalable solutions and optimizing performance. Problem-solving excites me, and I thrive on tackling challenges with creativity and innovation to build unique and efficient applications";
+  "lorem epsium";
 
 const Hero = () => {
   return (
