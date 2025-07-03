@@ -12,7 +12,7 @@ export const Contact = () => {
           {CONTACT.email}
         </a>
         <p className="mt-4 text-sm text-gray-500">
-          Made with 🤍, Avani 2025
+          Made with 🤍, @ Avani 2025
         </p>
       </div>
     </div>

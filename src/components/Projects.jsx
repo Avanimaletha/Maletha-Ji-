@@ -7,6 +7,7 @@ const Projects = () => {
       <div>
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+            {/* Project Image */}
             <div className="w-full lg:w-1/4">
               <img
                 src={project.image}
@@ -16,20 +17,26 @@ const Projects = () => {
                 className="mb-6 rounded"
               />
             </div>
-            <div className="w-full max-w-xl lg:w-3/4">
-              <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
-              <p className="mb-4 text-stone-400">{project.description}</p>
-              {project.technologies.map((tech, index) => (
-                <span
-                  className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"
-                  key={index}
-                >
-                  {tech}
-                </span>
-              ))}
 
-              {/* GitHub and Live Demo buttons */}
-              <div className="mt-4">
+            {/* Project Details */}
+            <div className="w-full max-w-xl lg:w-3/4">
+              <h3 className="mb-2 text-2xl font-semibold">{project.title}</h3>
+              <p className="mb-4 text-stone-400">{project.description}</p>
+
+              {/* Technologies Used */}
+              <div className="mb-4">
+                {project.technologies.map((tech, techIndex) => (
+                  <span
+                    key={techIndex}
+                    className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              {/* GitHub and Live Demo Buttons */}
+              <div>
                 <a
                   href={project.github}
                   target="_blank"
@@ -38,14 +45,18 @@ const Projects = () => {
                 >
                   GitHub
                 </a>
-                <a
-                  href={project.live}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block rounded bg-stone-900 p-2 text-sm font-medium text-stone-300 hover:bg-stone-800 transition"
-                >
-                  Live Demo
-                </a>
+
+                {/* Show Live Demo only if URL is present */}
+                {project.live && (
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block rounded bg-stone-900 p-2 text-sm font-medium text-stone-300 hover:bg-stone-800 transition"
+                  >
+                    Live Demo
+                  </a>
+                )}
               </div>
             </div>
           </div>
