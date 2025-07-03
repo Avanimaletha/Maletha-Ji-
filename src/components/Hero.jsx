@@ -42,7 +42,7 @@ const Hero = () => {
               <h3>"Mountain girl at heart, coding dreams with chai in hand."</h3>
             </p>
             <a
-              href="Avani Final.pdf"
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download
