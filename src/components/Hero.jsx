@@ -1,5 +1,5 @@
 import ProfilePic from "../assets/hero-image.png";
-import {motion} from "framer-motion"
+
 
 const containerVariants = {
   hidden: {opacity: 0,x:-100},
@@ -16,8 +16,6 @@ const childVariants = {
   hidden: {opacity:0, x:-100},
   visible:{opacity:1,x:0,transition:{duration:0.5}}
 }
-const HERO_CONTENT =
-  "lorem epsium";
 
 const Hero = () => {
   return (
@@ -41,10 +39,10 @@ const Hero = () => {
               Developer-DSA-Devops
             </span>
             <p className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
-              {HERO_CONTENT}
+              <h3>"Mountain girl at heart, coding dreams with chai in hand."</h3>
             </p>
             <a
-              href="/resume.pdf"
+              href="Avani Final.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download
