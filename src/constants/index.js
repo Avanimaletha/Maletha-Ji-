@@ -2,6 +2,7 @@ import chat from "../assets/projects/chat.png";
 import vizulization from "../assets/projects/vizulization.png"
 import orbitus from "../assets/projects/orbitus.png"
 import weather from "../assets/projects/weather.png"
+import facial from "../assets/projects/facial.png"
 
 export const EXPERIENCES = [
   {
@@ -31,11 +32,11 @@ export const PROJECTS = [
 },
 {
   title: "AWS-Facial-Rekognition",
-  image: vizulization, 
+  image: facial, 
   description: "Developed a smart facial recognition tool leveraging AWS Rekognition to enable seamless, cloud-based identity matching and visual insights.",
-  technologies: ["AWS-Rekognition", "AWS-S3", "QuickSight","Python"],
-  github: "https://github.com/Avanimaletha/AWS-Facial-Rekognition",
-  live: "h", 
+  technologies: ["AWS-Rekognition", "AWS-S3", "QuickSight","Javascript"],
+  github: "https://github.com/Avanimaletha/AWS-Facial-Recognition",
+  live: "https://facial-reck.vercel.app/FaceLogin.html", 
 },
 
   {
