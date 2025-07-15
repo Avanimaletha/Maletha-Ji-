@@ -24,14 +24,7 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-   {
-  title: "AWS-Vizualization",
-  image: vizulization, 
-  description: " A cloud-based dashboard that visualizes real-time AWS resource usage, cost trends, and performance metrics to support smarter infrastructure management decisions. Built with AWS-native services, the tool empowers users to monitor and analyze their cloud environment in a centralized, interactive view.",
-  technologies: ["AWS-Lambda", "AWS-S3", "QuickSight","Python"],
-  github: "https://github.com/Avanimaletha/AWS-Visualization-Quicksight",
-  live: "aws-demo.mp4", 
-},
+   
 {
   title: "AWS-Facial-Rekognition",
   image: facial, 
@@ -41,13 +34,14 @@ export const PROJECTS = [
   live: "https://facial-reck.vercel.app/FaceLogin.html", 
 },
 {
-  title: "DailyDish",
-  image: Pizza, 
-  description: " Dynamic, user-friendly web application that allows users to search, view, and save recipes. Built with JavaScript, it fetches data from a recipe API (or local data) and displays it in a clean, organized interface. Key features include ingredient lists, cooking instructions, and optional filters for dietary preferences or meal types. The app helps users discover new meals and streamline their cooking experience. ",
-  technologies: ["Javascript", "API", "HTML","CSS"],
-  github: "https://github.com/Avanimaletha/Recipe",
-  live: "https://recipe-app-eta-ashen.vercel.app/", 
+  title: "AWS-Vizualization",
+  image: vizulization, 
+  description: " A cloud-based dashboard that visualizes real-time AWS resource usage, cost trends, and performance metrics to support smarter infrastructure management decisions. Built with AWS-native services, the tool empowers users to monitor and analyze their cloud environment in a centralized, interactive view.",
+  technologies: ["AWS-Lambda", "AWS-S3", "QuickSight","Python"],
+  github: "https://github.com/Avanimaletha/AWS-Visualization-Quicksight",
+  live: "aws-demo.mp4", 
 },
+
 {
   title: "Pennywise",
   image: Budget, 
@@ -63,6 +57,14 @@ export const PROJECTS = [
   technologies: ["React", "Tailwind", "Solidity","Web3"],
   github: "https://github.com/rachitdhaka/Drop-Service---Orbit-Us",
   live: "https://orbitus.vercel.app/", 
+},
+{
+  title: "DailyDish",
+  image: Pizza, 
+  description: " Dynamic, user-friendly web application that allows users to search, view, and save recipes. Built with JavaScript, it fetches data from a recipe API (or local data) and displays it in a clean, organized interface. Key features include ingredient lists, cooking instructions, and optional filters for dietary preferences or meal types. The app helps users discover new meals and streamline their cooking experience. ",
+  technologies: ["Javascript", "API", "HTML","CSS"],
+  github: "https://github.com/Avanimaletha/Recipe",
+  live: "https://recipe-app-eta-ashen.vercel.app/", 
 },
   {
     title: "Chat-AI",
