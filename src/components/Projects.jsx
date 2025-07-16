@@ -45,8 +45,6 @@ const Projects = () => {
                 >
                   GitHub
                 </a>
-
-                {/* Show Live Demo only if URL is present */}
                 {project.live && (
                   <a
                     href={project.live}
@@ -61,6 +59,18 @@ const Projects = () => {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* More Projects Button */}
+      <div className="text-center mt-10">
+        <a
+          href="https://github.com/Avanimaletha"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-white rounded-full p-4 text-5m text-stone-800 mb-10"
+        >
+          More Projects on GitHub →
+        </a>
       </div>
     </div>
   );

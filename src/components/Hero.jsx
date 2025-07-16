@@ -40,6 +40,7 @@ const Hero = () => {
             </span>
             <p className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
               <h3>"Mountain girl at heart, coding dreams with chai in hand."</h3>
+              <h3>🗻🍵👩🏽‍💻</h3>
             </p>
             <a
               href="/resume.pdf"
