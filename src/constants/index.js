@@ -5,22 +5,36 @@ import weather from "../assets/projects/weather.png"
 import facial from "../assets/projects/facial.png"
 import Pizza from "../assets/projects/Pizza.png"
 import Budget from "../assets/projects/Budget.png"
+import hal from "../assets/experience/hal.jpg"
+import code from "../assets/experience/code.jpg"
+import andro from "../assets/experience/andro.jpg"
 
 export const EXPERIENCES = [
   {
-    year: "2022-2024",
-    role: "Web-Development Member",
-    company: "CodeKrafters -",
-    
-    
+    year: "August 2025-September 2025",
+    role: "Research Intern",
+    company: "Hindustan Aeronautics Limited",
+    location: "ON-Site",
+    description: "Contributed to aerospace digital engineering workflows and explored the application of Product Lifecycle Management (PLM) in real-world projects. Gained hands-on exposure to Enterprise Resource Planning (ERP) systems for managing large-scale engineering processes. Enhanced my understanding of networking principles within aerospace environments. Developed strong technical documentation and reporting skills, improving clarity and knowledge sharing within the research team.",
+    image: hal,
   },
   {
-    year: "2023-2024",
-    role: "Core-Team Member",
-    company: "Andropedia -",
-    
-    
+    year: "September 2022-April 2024",
+    role: "Web Development Member",
+    company: "CodeKrafters",
+    location: "ON-Site",
+    description: "contributed to building and maintaining web projects that supported club initiatives and student engagement. I was part of the organizing team for multiple hackathons and technical events, where I helped streamline event logistics, coordinate participants, and ensure smooth execution.",
+    image: code,
   },
+  {
+    year: "April 2023-August 2024",
+    role: "Core Member",
+    company: "Andropedia",
+    location: "ON-Site",
+    description: "I played an active role in community building and knowledge sharing around cloud technologies. I co-organized and hosted CloudCon, an event dedicated to exploring cloud computing trends and applications. During the event, I delivered a session on Amazon Web Services (AWS), covering its core services and practical use cases.",
+    image: andro,
+  },
+ 
 ];
 
 export const PROJECTS = [
@@ -41,7 +55,14 @@ export const PROJECTS = [
   github: "https://github.com/Avanimaletha/AWS-Visualization-Quicksight",
   live: "aws-demo.mp4", 
 },
-
+ {
+    title: "Chat-AI",
+    image: chat,
+    description: "An AI-powered real-time chat application that integrates conversational intelligence into a sleek, modern UI. Built with React and Tailwind CSS, Chat-AI uses the Gemini API to deliver dynamic, context-aware responses, making conversations feel natural and engaging.",
+    technologies: ["Tailwind", "React","Gemini API"],
+    github: "https://chat-ai-ebon-eight.vercel.app/",
+    live: "https://chat-ai-ebon-eight.vercel.app/",
+  },
 {
   title: "Pennywise",
   image: Budget, 
@@ -58,6 +79,15 @@ export const PROJECTS = [
   github: "https://github.com/rachitdhaka/Drop-Service---Orbit-Us",
   live: "https://orbitus.vercel.app/", 
 },
+
+  {
+  title: "Weather-App",
+  image: weather, 
+  description: "A responsive web app that provides real-time weather updates for any city worldwide. Users can search for a location to view current temperature, weather conditions, and more—all displayed in a clean, minimalist interface.",
+  technologies: ["React", "Tailwind", "Weather API"],
+  github: "https://github.com/Avanimaletha/weather-app",
+  live: " https://weather-app-f5f1.vercel.app/", 
+},
 {
   title: "DailyDish",
   image: Pizza, 
@@ -66,23 +96,7 @@ export const PROJECTS = [
   github: "https://github.com/Avanimaletha/Recipe",
   live: "https://recipe-app-eta-ashen.vercel.app/", 
 },
-  {
-    title: "Chat-AI",
-    image: chat,
-    description: "An AI-powered real-time chat application that integrates conversational intelligence into a sleek, modern UI. Built with React and Tailwind CSS, Chat-AI uses the Gemini API to deliver dynamic, context-aware responses, making conversations feel natural and engaging.",
-    technologies: ["Tailwind", "React","Gemini API"],
-    github: "https://chat-ai-ebon-eight.vercel.app/",
-    live: "https://chat-ai-ebon-eight.vercel.app/",
-  },
   
-{
-  title: "Weather-App",
-  image: weather, 
-  description: "A responsive web app that provides real-time weather updates for any city worldwide. Users can search for a location to view current temperature, weather conditions, and more—all displayed in a clean, minimalist interface.",
-  technologies: ["React", "Tailwind", "Weather API"],
-  github: "https://github.com/Avanimaletha/weather-app",
-  live: " https://weather-app-f5f1.vercel.app/", 
-}
 
   
 ];

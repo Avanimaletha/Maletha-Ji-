@@ -38,12 +38,13 @@ const Hero = () => {
             <span className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">
               Developer-DSA-Devops
             </span>
-            <p className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
-              <h3>"Mountain girl at heart, coding dreams with chai in hand."</h3>
-              <h3>🗻🍵👩🏽‍💻</h3>
-            </p>
+            <p className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter italic text-center">
+  "Mountain girl at heart, coding dreams with chai in hand."
+  <br />
+  </p>
+
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/16DNo6u-bTMv1U1YVB8d3EKycs89wQ-0I/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               download
