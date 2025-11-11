@@ -44,7 +44,7 @@ const Hero = () => {
   </p>
 
             <a
-              href="https://drive.google.com/file/d/1ShN22hS9wnFb_AkrPiHJPIlFZpju9UPU/view?usp=sharing"
+              href="https://drive.google.com/file/d/1EA0mOhcDLacVOIapMSzsxx4dj-Fs4wIH/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               download
